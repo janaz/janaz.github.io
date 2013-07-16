@@ -1,7 +1,12 @@
 ---
-layout: default
+layout: bootstrap
 ---
-<h2>{{ page.title }}</h2>
+<ul class="breadcrumb">
+  <li><a href="/blog.html">Blog Home</a> <span class="divider">/</span></li>
+  <li class="active">{{ page.title }}</li>
+</ul>
+
+<h3>{{ page.title }}</h3>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="post">
