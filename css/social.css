@@ -1,0 +1,19 @@
+.social-icon {
+    display: block;
+    background: url("/img/flatIconSet4.png") repeat;
+    width: 105px;
+    height: 105px;
+    padding: 5px 0px 10px 0px;
+}
+
+.linkedin {
+    background-position: 630px -260px;
+}
+
+.twitter {
+    background-position: 498px -260px;
+}
+
+.github {
+    background-position: 367px -391px;
+}
