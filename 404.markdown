@@ -1,0 +1,8 @@
+---
+layout: bootstrap
+title: Page not found
+---
+
+## Sorry, I haven't found what you're looking for
+
+Please, start again from the [home page](/)
