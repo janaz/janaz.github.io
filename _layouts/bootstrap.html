@@ -1,70 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tomasz Janowski Agile software developer java ruby javascript">
-    <meta name="author" content="Tomasz Janowski">
-
-    <!-- Le styles -->
-    <link href="/css/syntax.css" rel="stylesheet">
-    <link href="/css/social.css?ts=201307151656" rel="stylesheet">
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <style type="text/css">
-        body {
-            padding-top: 60px;
-            padding-bottom: 40px;
-        }
-    </style>
-    <link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-    <script src="/js/html5shiv.js"></script>
-    <![endif]-->
-
-    <!-- Fav and touch icons -->
-    <link rel="shortcut icon" href="/favicon.ico">
-
-</head>
-
-<body>
-
-<div class="container">
-
-    <div class="page-header">
-        <h1>Tomasz Janowski
-            <small><a href="https://twitter.com/janowskit">@janowskit</a></small>
-        </h1>
-        <p>Agile software developer (Ruby, Java, JavaScript and many more), currently based in Melbourne.</p>
-    </div>
-
-    <ul class="nav nav-tabs" id="navlist">
-        {% if page.url == '/index.html' %}
-            <li class="active"><a href="/index.html">Home</a></li>
-            <!--<li><a href="/blog.html">Blog</a></li>-->
-          {% else %}
-        <li><a href="/index.html">Home</a></li>
-        <!--<li class="active"><a href="/blog.html">Blog</a></li>-->
-          {% endif %}
-    </ul>
-
-    {{ content }}
-
-    <hr/>
-
-    <footer>
-        <p>© 2013, Tomasz Janowski <a href="https://twitter.com/janowskit">@janowskit</a></p>
-    </footer>
-
+---
+layout: bootstrap-empty
+---
+<div class="page-header">
+    <h1>Tomasz Janowski
+        <small><a href="https://twitter.com/janowskit">@janowskit</a></small>
+    </h1>
+    <p>Agile software developer (Ruby, Java, JavaScript and many more), currently based in Melbourne.</p>
 </div>
-<!-- /container -->
 
-<!-- Le javascript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="/js/jquery-1.10.2.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-</body>
-</html>
+<ul class="nav nav-tabs" id="navlist">
+    {% if page.url == '/index.html' %}
+    <li class="active"><a href="/index.html">Home</a></li>
+    <!--<li><a href="/blog.html">Blog</a></li>-->
+    {% else %}
+    <li><a href="/index.html">Home</a></li>
+    <!--<li class="active"><a href="/blog.html">Blog</a></li>-->
+    {% endif %}
+</ul>
+
+{{ content }}
+
+<hr/>
+
+<footer>
+    <p>© 2013, Tomasz Janowski <a href="https://twitter.com/janowskit">@janowskit</a></p>
+</footer>
+
