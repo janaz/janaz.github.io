@@ -3,6 +3,6 @@ layout: bootstrap
 title: Page not found
 ---
 
-## Sorry, I couldn't found what you were looking for
+## Sorry, I couldn't find what you were looking for.
 
 Please, start again from the [home page](/)
