@@ -6,6 +6,7 @@ namespace :jekyll do
         spawn("scss --watch assets"),
 #    spawn("coffee -b -w -o javascripts -c assets/*.coffee")
     ]
+    spawn("sleep 3 && open http://localhost:4000/")
 
     trap "INT" do
       Process.kill "INT", *pids
@@ -17,3 +18,5 @@ namespace :jekyll do
     end
   end
 end
+
+task :default => %w(jekyll:start)
