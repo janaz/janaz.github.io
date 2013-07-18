@@ -7,8 +7,7 @@ title: "Tomasz Janowski CV"
 **Email:** [tomasz@janowski.info](mailto:tomasz@janowski.info)
 **WWW:** [http://janowski.info](http://janowski.info)
 
-Multi skilled senior software engineer, knowledgeable, collaborative, well performing polyglot developer with a strong experience in agile and lean methodologies, tools and techniques. Currently working on a rich Ruby on Rails / jQuery / HTML5 web application used by all the Australian real estate agents. Strong Java EE background  (Sun and Oracle certified) with over 3 years of commercial experience developing  a large scale insurance software for TAC and Worksafe Victoria. Experienced in number of relational database systems with exposure to Oracle and MySQL queries optimization and understanding the algorithmic foundations of relational databases. Member of Melbourne Java & JVM Users Group.
-
+Multi skilled and goal oriented senior software engineer with a focus on agile methodologies and devops approach. I value work environments with cross functional, independent, high performing teams. I'm enthusiastic, curious and love to be surrounded by smart people. My current development stack is focused around Ruby on Rails, JavaScript, HTML5, web development, micro services, DevOps. I have a strong Java Enterprise background. The goal of the project I'm currently working on is to enable the backend applications to be deployable into the Amazon cloud.
 
 #### EMPLOYMENT
 
