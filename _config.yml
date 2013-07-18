@@ -1,3 +1,9 @@
 name: Tomasz Janowski
 markdown: redcarpet
 pygments: true
+exclude:
+  - Rakefile
+  - Gemfile*
+  - CNAME
+  - README.md
+

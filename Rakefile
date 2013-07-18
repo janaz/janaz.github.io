@@ -2,7 +2,7 @@ namespace :jekyll do
   desc "compile and run the site"
   task :start do
     pids = [
-        spawn("jekyll serve -w --drafts"), # put `auto: true` in your _config.yml
+        spawn("jekyll serve -w --drafts --trace"), # put `auto: true` in your _config.yml
         spawn("scss --watch assets"),
 #    spawn("coffee -b -w -o javascripts -c assets/*.coffee")
     ]
